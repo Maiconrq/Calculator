@@ -782,7 +782,7 @@ public class Calculator extends javax.swing.JFrame {
     }//GEN-LAST:event_button_minusActionPerformed
 
     private void button_plusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_plusActionPerformed
-        operationBox.setText(operationBox.getText()+"+");
+        
         v1=Double.parseDouble(operationBox.getText());
         operation="plus";
         operationBox.setText("");

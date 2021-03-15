@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -18,6 +21,8 @@ public class Teste {
         double b= 4;
         
         System.out.println(c*b);
+        Scanner ler= new Scanner(System.in);
+       int a=ler.nextInt();
     }
     
 }
