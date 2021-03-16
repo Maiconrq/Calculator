@@ -1,4 +1,4 @@
-# INMTE
+# CALCULATOR
 [![Série](https://img.shields.io/badge/Maiconrq-Calculator-red)](https://github.com/Maiconrq/INMTE)
 [![Série](https://img.shields.io/badge/lramon2001-Calculator-red)](https://github.com/lramon2001/INMTE)
 [![Série](https://img.shields.io/badge/Alef012-Calculator-red)](https://github.com/lramon2001/INMTE)
