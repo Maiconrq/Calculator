@@ -1,3 +1,6 @@
+
+import javax.swing.JOptionPane;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -160,7 +163,6 @@ public class Calculator extends javax.swing.JFrame {
 
         jButton37.setBackground(new java.awt.Color(255, 215, 0));
         jButton37.setFont(new java.awt.Font("MS Reference Sans Serif", 0, 18)); // NOI18N
-        jButton37.setForeground(new java.awt.Color(0, 0, 0));
         jButton37.setText("=");
 
         jButton38.setBackground(new java.awt.Color(51, 51, 51));
@@ -395,7 +397,6 @@ public class Calculator extends javax.swing.JFrame {
 
         button_equals.setBackground(new java.awt.Color(255, 215, 0));
         button_equals.setFont(new java.awt.Font("MS Reference Sans Serif", 0, 18)); // NOI18N
-        button_equals.setForeground(new java.awt.Color(0, 0, 0));
         button_equals.setText("=");
         button_equals.setBorder(null);
         button_equals.addActionListener(new java.awt.event.ActionListener() {
@@ -451,7 +452,7 @@ public class Calculator extends javax.swing.JFrame {
         button_close_parenthesis.setBackground(new java.awt.Color(51, 51, 51));
         button_close_parenthesis.setFont(new java.awt.Font("MS Reference Sans Serif", 0, 18)); // NOI18N
         button_close_parenthesis.setForeground(new java.awt.Color(255, 255, 255));
-        button_close_parenthesis.setText(")");
+        button_close_parenthesis.setText("ln");
         button_close_parenthesis.setBorder(null);
         button_close_parenthesis.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -462,7 +463,7 @@ public class Calculator extends javax.swing.JFrame {
         button_open_parenthesis.setBackground(new java.awt.Color(51, 51, 51));
         button_open_parenthesis.setFont(new java.awt.Font("MS Reference Sans Serif", 0, 18)); // NOI18N
         button_open_parenthesis.setForeground(new java.awt.Color(255, 255, 255));
-        button_open_parenthesis.setText("(");
+        button_open_parenthesis.setText("log");
         button_open_parenthesis.setBorder(null);
         button_open_parenthesis.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -563,6 +564,11 @@ public class Calculator extends javax.swing.JFrame {
 
         button_easterEgg.setBackground(new java.awt.Color(0, 0, 0));
         button_easterEgg.setBorder(null);
+        button_easterEgg.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_easterEggActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -682,111 +688,111 @@ public class Calculator extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void operationBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_operationBoxActionPerformed
-        // TODO add your handling code here:
+   
     }//GEN-LAST:event_operationBoxActionPerformed
 
     private void answerField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_answerField1ActionPerformed
-        // TODO add your handling code here:
+    
     }//GEN-LAST:event_answerField1ActionPerformed
 
     private void resultBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resultBoxActionPerformed
-        // TODO add your handling code here:
+       
     }//GEN-LAST:event_resultBoxActionPerformed
 
     private void button_0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_0ActionPerformed
-    operationBox.setText("");
-        operationBox.setText(operationBox.getText()+"0");
+    
     }//GEN-LAST:event_button_0ActionPerformed
 
     private void button_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_1ActionPerformed
-        
-        operationBox.setText(operationBox.getText()+"1");
-        
+      operationBox.setText(operationBox.getText()+" 1");
+                
     }//GEN-LAST:event_button_1ActionPerformed
 
     private void button_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_2ActionPerformed
-       
-        operationBox.setText(operationBox.getText()+"2");
+       operationBox.setText(operationBox.getText()+" 2");
                 
     }//GEN-LAST:event_button_2ActionPerformed
 
     private void button_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_3ActionPerformed
-      
-        operationBox.setText(operationBox.getText()+"3");
-                
+      operationBox.setText(operationBox.getText()+" 3");
     }//GEN-LAST:event_button_3ActionPerformed
 
     private void button_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_4ActionPerformed
-       operationBox.setText(operationBox.getText()+"4");
+       operationBox.setText(operationBox.getText()+" 4");
               
     }//GEN-LAST:event_button_4ActionPerformed
 
     private void button_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_5ActionPerformed
         
-        operationBox.setText(operationBox.getText()+"5");
+              operationBox.setText(operationBox.getText()+" 5");
+
                  
     }//GEN-LAST:event_button_5ActionPerformed
 
     private void button_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_6ActionPerformed
          
-        operationBox.setText(operationBox.getText()+"6");
+              operationBox.setText(operationBox.getText()+" 6");
+
                  
     }//GEN-LAST:event_button_6ActionPerformed
 
     private void button_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_7ActionPerformed
-        
-        operationBox.setText(operationBox.getText()+"7");
+               operationBox.setText(operationBox.getText()+" 7");
+
+       
                  
     }//GEN-LAST:event_button_7ActionPerformed
 
     private void button_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_8ActionPerformed
        
-        operationBox.setText(operationBox.getText()+"8");
+               operationBox.setText(operationBox.getText()+" 8");
+
                 
     }//GEN-LAST:event_button_8ActionPerformed
 
     private void button_9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_9ActionPerformed
         
-        operationBox.setText(operationBox.getText()+"9");
+               operationBox.setText(operationBox.getText()+" 9");
+
                  
     }//GEN-LAST:event_button_9ActionPerformed
 
     private void button_dotActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_dotActionPerformed
         
-        operationBox.setText(operationBox.getText()+".");
-                
+        
     }//GEN-LAST:event_button_dotActionPerformed
 
     private void button_open_parenthesisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_open_parenthesisActionPerformed
         
-        operationBox.setText(operationBox.getText()+"(");
+       
                  
     }//GEN-LAST:event_button_open_parenthesisActionPerformed
 
     private void button_close_parenthesisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_close_parenthesisActionPerformed
          
-        operationBox.setText(operationBox.getText()+")");
+        
                  
     }//GEN-LAST:event_button_close_parenthesisActionPerformed
 
     private void button_divisionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_divisionActionPerformed
-       operationBox.setText(operationBox.getText()+"/");
+            operationBox.setText(operationBox.getText()+" /");
+
     }//GEN-LAST:event_button_divisionActionPerformed
 
     private void button_timesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_timesActionPerformed
-         operationBox.setText(operationBox.getText()+"x");
+             operationBox.setText(operationBox.getText()+" x");
+
     }//GEN-LAST:event_button_timesActionPerformed
 
     private void button_minusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_minusActionPerformed
-        operationBox.setText(operationBox.getText()+"-");
+               operationBox.setText(operationBox.getText()+" -");
+
     }//GEN-LAST:event_button_minusActionPerformed
 
     private void button_plusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_plusActionPerformed
-        
-        v1=Double.parseDouble(operationBox.getText());
-        operation="plus";
-        operationBox.setText("");
-        
+       
+               operationBox.setText(operationBox.getText()+" +");
+
     }//GEN-LAST:event_button_plusActionPerformed
 
     private void button_fatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_fatActionPerformed
@@ -794,19 +800,21 @@ public class Calculator extends javax.swing.JFrame {
     }//GEN-LAST:event_button_fatActionPerformed
 
     private void button_piActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_piActionPerformed
-         operationBox.setText(operationBox.getText()+Math.PI);
+                operationBox.setText(operationBox.getText()+" π");
+
     }//GEN-LAST:event_button_piActionPerformed
 
     private void button_equalsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_equalsActionPerformed
-        v2=Double.parseDouble(operationBox.getText());
-        if(operation=="plus"){
-            resultBox.setText(String.valueOf(v1+v2));
-        }
+       
     }//GEN-LAST:event_button_equalsActionPerformed
 
     private void button_cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_cActionPerformed
-        operationBox.setText("");
+     operationBox.setText("");
     }//GEN-LAST:event_button_cActionPerformed
+
+    private void button_easterEggActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_easterEggActionPerformed
+        JOptionPane.showMessageDialog(null,"Você é o gênio da bola!");
+    }//GEN-LAST:event_button_easterEggActionPerformed
 
     /**
      * @param args the command line arguments
