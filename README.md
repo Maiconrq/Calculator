@@ -1,9 +1,12 @@
 # CALCULATOR
-[![Série](https://img.shields.io/badge/Maiconrq-Calculator-red)](https://github.com/Maiconrq/INMTE)
-[![Série](https://img.shields.io/badge/lramon2001-Calculator-red)](https://github.com/lramon2001/INMTE)
-[![Série](https://img.shields.io/badge/Alef012-Calculator-red)](https://github.com/lramon2001/INMTE)
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/Maiconrq/INMTE/blob/main/LICENSE)
 ![language](https://img.shields.io/badge/java-only-yellow)
+![project](https://img.shields.io/badge/project-calculator-red)
+
+## Contributors / Colaboradores
+[![Série](https://img.shields.io/badge/Maiconrq-UnB-blue)](https://github.com/Maiconrq/INMTE)
+[![Série](https://img.shields.io/badge/lramon2001-UnB-green)](https://github.com/lramon2001/INMTE)
+[![Série](https://img.shields.io/badge/Alef012-UnB-blue)](https://github.com/lramon2001/INMTE)
 
 :rocket: Project with OO approaches and Java applications. 
 
