@@ -12,12 +12,10 @@
 
 > :rocket: **Projeto com abordagens de OO e aplicações em Java.**
 
-
-## Versioning / Versionamento
-- This project does not follow any versioning requirements.
-
-> **Esse projeto não segue nenhum requisito de versionamento.**
-
+## Built with / Feito com
+- Java 11;
+- JDK 11;
+- Apache Netbeans;
 
 ## Contributing / Contribuindo
 
@@ -25,10 +23,10 @@
 
 > **Pretende contribuir? [Siga esses passos](./CONTRIBUTING.md):**
 
-## Built with / Feito com
-- Java 11;
-- JDK 11;
-- Apache Netbeans;
+## Versioning / Versionamento
+- This project does not follow any versioning requirements.
+
+> **Esse projeto não segue nenhum requisito de versionamento.**
 
 ## History / História
 - See [Commit changes](https://github.com/lramon2001/Calculator/commits/main) for details.
