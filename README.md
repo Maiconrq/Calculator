@@ -22,6 +22,10 @@
 
 > **Pretende contribuir? [Siga esses passos](./CONTRIBUTING.md):**
 
+## Built with / Feito com
+- Java 11;
+- JDK 11;
+- Apache Netbeans;
 
 ## History / História
 - See [Commit changes](https://github.com/lramon2001/Calculator/commits/main) for details.
