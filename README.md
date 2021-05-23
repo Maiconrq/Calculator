@@ -29,9 +29,9 @@
 > **Consulte [Mudanças de commit](https://github.com/lramon2001/Calculator/commits/main) para obter detalhes.**
 
 ## License / Licença
-[MIT License](https://github.com/Maiconrq/INMTE/blob/main/LICENSE) © [lramon](https://github.com/lramon2001)
+[MIT License](https://github.com/lramon2001/Calculator/blob/code/LICENSE) © [lramon](https://github.com/lramon2001)
 
-[MIT License](https://github.com/Maiconrq/INMTE/blob/main/LICENSE) © [Maiconrq](https://github.com/Maiconrq)
+[MIT License](https://github.com/lramon2001/Calculator/blob/code/LICENSE) © [Maiconrq](https://github.com/Maiconrq)
 
-[MIT License](https://github.com/Maiconrq/INMTE/blob/main/LICENSE) © [Alef012](https://github.com/Alef012)
+[MIT License](https://github.com/lramon2001/Calculator/blob/code/LICENSE) © [Alef012](https://github.com/Alef012)
 
