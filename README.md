@@ -8,9 +8,9 @@
 [![Série](https://img.shields.io/badge/lramon2001-UnB-green)](https://github.com/lramon2001/INMTE)
 [![Série](https://img.shields.io/badge/Alef012-UnB-blue)](https://github.com/lramon2001/INMTE)
 
-:rocket: Project with OO approaches and Java applications. 
+:rocket: Project with Java applications. 
 
-> :rocket: **Projeto com abordagens de OO e aplicações em Java.**
+> :rocket: **Projeto com aplicações em Java.**
 
 ## Built with / Feito com
 - Java 11;
