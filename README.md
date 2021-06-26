@@ -16,7 +16,7 @@
 - Java 11;
 - JDK 11;
 - Apache Netbeans;
-## Design done with SceneBuilder / Interface feita com SceneBuilder :
+## Design done with JFrame / Interface feita com JFrame :
 
 <div align ="center"> 
   <img src="https://github.com/lramon2001/Calculator/blob/code/calculadora.jpg">
